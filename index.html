@@ -8,11 +8,25 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i"
     />
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/debug.css" />
-    <style></style>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./debug.css" />
+    <style>
+      article {
+        display: grid;
+        grid-template-columns: 1fr minmax(0, 8.5in) 1fr;
+        height: 100vh; /* temp fix */
+      }
+      article * {
+        grid-column: 2/3;
+      }
+    </style>
   </head>
   <body>
-    <article></article>
+    <article>
+      <p class="debug-center">ARTICLE</p>
+    </article>
+    <article>
+      <p class="debug-center">ARTICLE</p>
+    </article>
   </body>
 </html>
