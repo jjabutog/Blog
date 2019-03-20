@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+.container i {
+  padding: 0.75rem;
+}
