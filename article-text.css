@@ -24,6 +24,7 @@ p {
 }
 figcaption p {
   font: 400 1rem/1.5 "Roboto";
+  font-size: 0.7rem;
   color: hsl(0, 0%, 83%);
 }
 a {
